@@ -81,6 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Panagiotis Papantonakis"
+  avatar           : "avatar.jpg"
   bio              : "ECE, NTUA Graduate"
   location         : "Heraklion, Greece"
   employer         :

@@ -5,7 +5,7 @@ permalink: /publication/xtralingua
 excerpt: ''
 date: 2020-6-15
 status: 'Published'
-venue: 'DH2020'
+venue: 'DH'
 authors: 'Fotios Fitsilis, Sotiris Leventis, George Mikros, <strong>Panagiotis Papantonakis</strong>'
 paperurl: 'https://aseees.hcommons.org/deposits/item/hc:31757/'
 ---

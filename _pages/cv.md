@@ -16,6 +16,10 @@ Education
 
 Work experience
 ======
+* **R&D Engineer**, CVRL, FORTH *(March 2022 - Present)*
+  * Implemented a physics-based FLIP simulator in C++ (using OpenVDB 9) and UE5.
+  * Participate in various development activities within the DECISMAR project.
+
 * **Junior Software Developer**, Hypernetica *(Apr 2020 - Aug 2021)*
   * Developed the full stack of a web application for a customer project.
   * Primarily using JavaScript technologies including React, NodeJS and MongoDB.
@@ -29,8 +33,8 @@ full MERN stack.
 Skills
 ======
 * Programming Languages
-  * **Python**, C, C++, JavaScript
+  * **Python**, **C++**, C, JavaScript
 * Frameworks and Tools
-  * **Pytorch**, NodeJS, ReactJS, LaTeX, Git
+  * **Pytorch**, **Git**, NodeJS, ReactJS, LaTeX
 * Databases
   * MongoDB, MySQL

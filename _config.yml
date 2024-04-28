@@ -14,7 +14,7 @@ description              : &description "Personal website of Panagiotis Papanton
 url                      : https://panagiotisp.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pangiotisp/pangiotisp.github.io"
-teaser                   : "500x300.png"
+teaser                   : 
 breadcrumbs              : # false (default)
 words_per_minute         : 160
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -23,8 +23,8 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 author:
   name             : "Panagiotis Papantonakis"
   avatar           : "avatar.jpg"
-  bio              : "ECE, NTUA Graduate"
-  location         : "Heraklion, Greece"
+  bio              : "PhD Student at Inria Sophia-Antipolis"
+  location         : "Nice, France"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=qmHUavYAAAAJ"

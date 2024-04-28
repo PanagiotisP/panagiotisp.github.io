@@ -1,7 +1,6 @@
 ---
 title: "Multi-band masking for Waveform-based Singing Voice Separation"
 collection: publications
-permalink: /publication/svs-multiband
 excerpt: ''
 date: 2022-8-29
 status: 'Published'

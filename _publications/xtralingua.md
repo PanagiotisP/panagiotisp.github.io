@@ -1,7 +1,6 @@
 ---
 title: "Xtralingua: An open-source tool for extracting quantitative text profiles"
 collection: publications
-permalink: /publication/xtralingua
 excerpt: ''
 date: 2020-6-15
 status: 'Published'

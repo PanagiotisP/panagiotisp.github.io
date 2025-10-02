@@ -1,0 +1,6 @@
+{% include base_path %}
+
+<div class="{{ include.type | default: " list" }}__item">
+        <div class="page__date"><strong><time datetime="{{ news.date | default: " 1900-01-01" | date_to_xmlschema }}">{{
+                    news.date | default: "1900-01-01" | date: "%b, %Y" }}</time>:</strong> {{news.content | remove: '<p>' | remove: '</p>'}}</div>
+</div>

@@ -8,10 +8,11 @@ redirect_from:
 ---
 # About Me
 
-I am a first-year PhD student in the [GraphDeco](https://team.inria.fr/graphdeco/fr/) team, at INRIA and Université Côte D'Azur, supervised by [George Drettakis](https://www-sop.inria.fr/members/George.Drettakis/).
+I am a third-year PhD student in the [GraphDeco](https://team.inria.fr/graphdeco/fr/) team, at INRIA and Université Côte D'Azur, supervised by [George Drettakis](https://www-sop.inria.fr/members/George.Drettakis/).
+My research interests revolve around Gaussian Splatting, Scene Reconstruction and Relighting.
 
-Before that, I spent 9 months in the [CVRL](https://www.ics.forth.gr/cvrl/) lab,
-working as an R&D Engineer in various european-funded projects,
+In the past, I had spent 9 months in the [CVRL](https://www.ics.forth.gr/cvrl/) lab,
+working as an R&D Engineer in various European-funded projects,
 in [Panos Trahanias](https://www.ics.forth.gr/cvrl/person/Trahanias/Panos%20E.)'s team.
 
 I completed my combined BSc/MSc at the School of Electrical and Computer Engineering in the [National Technical University of Athens](http://ece.ntua.gr/),
@@ -19,7 +20,7 @@ where I did my master's thesis under the supervision of professor [Petros Marago
 
 ## News
 {% assign sorted = site.news | reverse %}
-{% for news in sorted %}
+{% for news in sorted limit:4 %}
   {% include news.html %}
 {% endfor %}
 

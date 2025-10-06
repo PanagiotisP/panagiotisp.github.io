@@ -58,6 +58,7 @@
       }
   }
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -70,7 +71,10 @@
 }
 
 .archive__item-body {
-  width: 73%;
+  width: 100%;
+  @include breakpoint($medium-wide) {
+    width: 68%;
+  }
 }
 
 /* remove border*/
@@ -94,10 +98,13 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
-  width: 25%;
-  margin: auto;
+  width: 100%;
+  margin: auto 8px auto 0;
   img {
     width: 100%;
+  }
+  @include breakpoint($medium-wide) {
+    width: 30%;
   }
 }
 

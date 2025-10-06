@@ -57,6 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  cv               : cv.pdf
 
 
 # Reading Files
@@ -118,7 +119,7 @@ kramdown:
 # Collections
 collections:
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true

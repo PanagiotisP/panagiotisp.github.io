@@ -11,6 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% assign sorted = site.publications | reverse %}
+{% assign count = sorted | size | minus: 2 %}
+{% for post in sorted limit:count %}
   {% include archive-single.html %}
 {% endfor %}

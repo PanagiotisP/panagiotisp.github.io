@@ -28,6 +28,7 @@ where I did my master's thesis under the supervision of professor [Petros Marago
 {% include base_path %}
 
 {% assign sorted = site.publications | reverse %}
-{% for post in sorted %}
+{% assign count = sorted | size | minus: 2 %}
+{% for post in sorted limit:count %}
   {% include archive-single.html %}
 {% endfor %}

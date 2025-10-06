@@ -50,7 +50,9 @@ layout: default
         {% if page.authors %}
           <p>
             {% if page.status == 'Published' %}
-            <u> Citation</u>: {{page.authors}}, "{{page.title}}", <i> {{page.venue}} </i>
+            {{page.authors}}
+            <br>
+            <i> {{page.venue}} </i> {{ post.date | date: "%Y" }}
             {% else %}
             <u> Authors</u>: {{page.authors}}
             {% endif %}
@@ -71,7 +73,7 @@ layout: default
         {% endif %}
       </footer>
 
-      {% include post_pagination.html %}
+      <!-- {% include post_pagination.html %} -->
     </div>
   </article>
 

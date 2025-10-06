@@ -48,6 +48,31 @@
   }
 }
 
+.archive__item {
+    a {
+      color: $primary-color;
+
+      &:hover {
+        color: $info-color;
+        text-decoration: none;
+      }
+  }
+  display: flex;
+  justify-content: space-between;
+}
+
+.archive__item-title {
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+  }
+}
+
+.archive__item-body {
+  width: 73%;
+}
+
 /* remove border*/
 .page__content {
 
@@ -69,6 +94,8 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  width: 25%;
+  margin: auto;
   img {
     width: 100%;
   }

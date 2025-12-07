@@ -2,7 +2,7 @@
 title: "Reducing the Memory Footprint of 3D Gaussian Splatting"
 collection: publications
 excerpt: ''
-date: 2023-4-28
+date: 2024-4-28
 status: 'Published'
 venue: 'I3D'
 authors: '<strong>Panagiotis Papantonakis</strong>, Georgios Kopanas, Bernhard Kerbl, Alexandre Lanvin, George Drettakis'
